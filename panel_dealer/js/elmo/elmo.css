@@ -1,0 +1,117 @@
+
+#elmo_menu {
+	background-color: #6b99b9;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	overflow-y: auto;
+}
+.menubox {
+	display: block;
+	width: auto;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: #fcc;
+	overflow: hidden;
+}
+.menubox .titlemenu {
+	display: block;
+	background-color: #40505c;
+	padding: 5px;
+	text-indent: 5px;
+	color: #fff;
+	font-size: 13px;
+}
+.menubox a {
+	display: block;
+	background-color: #f1f1f1;
+	padding: 5px;
+	text-indent: 5px;
+	color: #333;
+	font-size: 13px;
+	font-weight: 400;
+	border-top: 1px solid rgba(0,0,0,.05);
+}
+.menubox a:hover {
+	background-color: #f7de76;
+}
+.menubox a.activemenu {
+	background-color: #f7de76;
+	color: #000;
+}
+span.elmo_menu_open , span.elmo_menu_close {
+	display: block;
+	float: right;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	background-image: url('menu.png');
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	cursor: pointer;
+	text-align: center;
+}
+span.elmo_menu_open:hover , span.elmo_menu_close:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+
+.topmenu {
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	background-color: #427599;
+	color: #fff;
+	text-align: center;
+	z-index: 992;
+	position: relative;
+}
+.topleft {
+	position: relative;
+	background-color: #6b99b9;
+	text-align: right;
+	z-index: 991;
+}
+.topmenu a {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	text-align: center;
+}
+.topmenu a img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 18px;
+	height: 18px;
+}
+.topmenu a:hover {
+	background-color: rgba(0,0,0,.2);
+}
+.menu_in_menu {
+	display: none;
+}
+
+/* ReSIZE*/
+@media screen and (max-width: 800px) {
+	.menu_in_menu {
+		display: inline-block;
+		float: right;
+		vertical-align: middle;
+	}
+	.topleft {
+		width: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	#mainbox {
+		padding-top: 50px;
+		padding-bottom: 40px;
+	}
+}

@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^register$  login.php?register [QSA,NC]
+RewriteRule ^register/$  login.php?register [QSA,NC]
+
+RewriteRule ^login$  login.php [QSA,NC]
+RewriteRule ^login/$  login.php [QSA,NC]

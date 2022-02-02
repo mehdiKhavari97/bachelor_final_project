@@ -1,0 +1,15 @@
+#loading {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("loading.gif");
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+}

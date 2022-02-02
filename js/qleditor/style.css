@@ -1,0 +1,39 @@
+#editor-container , #editor-container2 , #editor-container3 {
+	height: 250px;
+	font-family: IRANSans !important;
+	font-weight: 300;
+	font-size: 13px;
+}
+.ql-editor {
+	text-align: right;
+	direction: rtl;
+}
+.ql-editing input {
+	direction: ltr;
+	text-align: left;
+}
+.ql-syntax {
+	text-align: left;
+	direction: ltr;
+}
+.ql-snow  .ql-editor blockquote {
+    border: 0px;
+    border-right: 4px solid #ccc;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-right: 16px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.ql-container {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ql-toolbar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.ql-showHtml:after {
+  content: "[source]";
+}

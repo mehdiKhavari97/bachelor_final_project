@@ -1,0 +1,91 @@
+.panel {
+    position: fixed;
+    right: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+    background: #ccc;
+    color: #333;
+    direction: rtl;
+    width: 550px;
+    z-index: 99999;
+}
+.search {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+    background: #333;
+    color: #fff;
+    direction: rtl;
+    z-index: 99999;
+}
+.wrap {
+    position: relative;
+}
+.searchinput {
+    color: #fff;
+    width: 90%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    height: 31px;
+    font-size: 13px;
+    font-weight: normal;
+    background: url("../../images/icons/44.png") no-repeat right center #ce4c4c;
+    background-size: 16px 16px;
+    padding-right: 10%;
+}
+
+.title_slidemenu {
+    color: #fff;
+    width: 95%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    height: 35px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: normal;
+    background: #8b8c88;
+    background-size: 16px 16px;
+    padding-right: 5%;
+}
+.closebutton {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-family: tahoma;
+}
+.menu-link {
+    float: right;
+    margin-top: 14px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    direction: rtl;
+    color: #fff;
+}
+a.menu-link:link , a.menu-link:visited {
+    color: #fff;
+}
+
+a.slidemenulink:link , a.slidemenulink:visited {
+    display: block;
+    color: #333;
+    padding: 8px;
+    padding-right: 12px;
+    background: #fff;
+    margin-bottom: 5px;
+    font-size: 13px;
+    border-radius: 2px;
+        -webkit-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.06);
+        -moz-box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.06);
+        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.06);
+}
+a.slidemenulink:hover {
+    background: #ddd;
+}

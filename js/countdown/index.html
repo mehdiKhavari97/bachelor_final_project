@@ -1,0 +1,22 @@
+
+
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<div class="counter-section">
+    <div class="counter"  id="init_clock"></div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='jquery.countdown.min.js'></script>
+
+  
+
+<script type="text/javascript">
+$('#init_clock').countdown('2022/01/10', function(event) {
+        var $this = $(this).html(event.strftime(''
+            + '<span class="days">%D</span> : '
+            + '<span class="hours">%H</span> : '
+            + '<span class="minutes">%M</span> : '
+            + '<span class="seconds">%S</span '));
+    });
+</script>

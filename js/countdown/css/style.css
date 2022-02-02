@@ -1,0 +1,25 @@
+#init_clock {
+    background-color: rgba(0,0,0,.4);
+    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+.counter {
+    font-family: 'arial';
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-size: 19px;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 7;
+    font-weight: bold;
+}
+
+.counter > div{
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
